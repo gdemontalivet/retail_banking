@@ -36,7 +36,7 @@ view: account {
     action: {
       label: "Send Client Savings Account Details"
       url: "https://desolate-refuge-53336.herokuapp.com/posts"
-      icon_url: "https://image.flaticon.com/icons/svg/1611/1611179.svg"
+      icon_url: "https://img.icons8.com/ios/50/receipt-dollar.png"
       param: {
         name: "some_auth_code"
         value: "abc123456"
@@ -60,8 +60,8 @@ view: account {
     }
     link: {
       label: "Customer Account Overview"
-      url: "/dashboards/goGpXFSyjbvdcrPMNAalS8?Account%20ID={{ value | encode_uri }}"
-      icon_url: "http://www.looker.com/favicon.ico"
+      url: "/dashboards/H6a20GawTA4JuU3drz1aCs?Account%20ID={{ value | encode_uri }}"
+      icon_url: "https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/22C3E6/external-customer-digital-marketing-and-technology-flatart-icons-outline-flatarticons-1.png"
     }
     required_fields: [client.first_name]
   }

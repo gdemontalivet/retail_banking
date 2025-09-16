@@ -1,4 +1,4 @@
-connection: "looker-private-demo"
+connection: "default_bigquery_connection"
 
 include: "/banking_and_card_views/*.view.lkml"
 include: "/geo_views/*.view.lkml"
